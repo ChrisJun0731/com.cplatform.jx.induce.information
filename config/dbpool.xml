@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 数据库连接池,支持连接多种不同类型数据库 -->
+<dbm>
+	<logFile>log/db.log</logFile>
+	<pool>
+		<!-- 连接池名称 -->
+		<name>oracle</name>
+		<!-- 驱动 -->
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<!-- 数据库url -->
+		<url>jdbc:oracle:thin:@192.168.5.83:1521:orcl</url>
+		<!-- 用户名 -->
+		<user>jxtraffic</user>
+		<!-- 密码 -->
+		<password>jxtrafficpass</password>
+		<!-- 最大链接数 -->
+		<maxConn>10</maxConn>
+		<!-- 最小链接数 -->
+		<minConn>1</minConn>
+		<!-- 初始链接数 -->
+		<defConn>1</defConn>
+	</pool>
+<!--	<pool>-->
+		<!-- 连接池名称 -->
+	<!--	<name>sqlserver</name>-->
+		<!-- 驱动 -->
+	<!--	<driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver>-->
+		<!-- 数据库url -->
+	<!--	<url>jdbc:sqlserver://192.168.5.158:1433;databaseName=TCMS</url>-->
+		<!-- 用户名 -->
+	<!--	<user>sa</user>-->
+		<!-- 密码 -->
+	<!--	<password>123456</password>-->
+		<!-- 最大链接数 -->
+	<!--	<maxConn>2</maxConn>-->
+		<!-- 最小链接数 -->
+	<!--	<minConn>1</minConn>-->
+		<!-- 初始链接数 -->
+	<!--	<defConn>1</defConn>-->
+	<!--</pool>-->
+</dbm>

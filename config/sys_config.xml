@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="GB18030"?>
+<project name="接口基本配置">
+	<!-- 高德URL-->
+	<property name="amap_induce_url">https://tp-restapi.amap.com/gate?sid=30012&amp;reqData=%s&amp;serviceKey=%s</property>
+    
+	<!-- 城市编码 -->
+	<property name="amap_city_code">22330200</property>
+	<!-- <property name="amap_city_code">330200</property> -->
+	
+	<!-- 高德接口序列号 -->
+	<property name="amap_service_key">BD243DECB2718615BE7730DD08277A88</property>
+	
+	<!-- amap_time_url-->
+	<property name="amap_time_url">https://tp-restapi.amap.com/gate?sid=30011&amp;reqData=%s&amp;serviceKey=%s</property>
+	
+	<!-- 播放列表模板 -->
+	<property name="playlist_model">config/item_config.xml</property>
+	
+	<!-- 能见度阈值 -->
+	<property name="visibility_limit">200</property>
+	
+	<!-- 雨量阈值 -->
+	<property name="rainfall_limit">5</property>
+	
+	<!-- 自动消息ITEM 路径-->
+	<property name="item_path">f:/data/traffic/</property>
+	
+	<!-- 模板修改基图 处理 路径-->
+	<property name="model_img_path">f:/data/traffic/model</property>
+	
+	<!-- 资源图片路径 -->
+	<property name="source_img_path">f:/data/traffic/img</property>
+	
+	<!-- 能见度图片名称 -->
+	<property name="img_visib_filename">visib.png</property>
+	
+	<!-- 下雨图片名称 -->
+	<property name="img_rain1_filename">rain1.png</property>
+	
+	<!-- 下雨 限速图片名称 -->
+	<property name="img_rain2_filename">rain2.png</property>
+	
+	<!-- 下雨 冰冻图片名称 -->
+	<property name="img_ice_filename">icing.png</property>
+	
+	<!-- 自动发布上屏接口地址 -->
+	<property name="auto_issue_path">http://223.112.4.226:10060/freeway/content/autoPush</property>
+	<!-- 代理地址 -->
+	<property name="http_proxyHost"></property>
+	<!-- 代理端口 -->
+	<property name="http_proxyPort"></property>
+	<!-- 墨迹天气APPCODE	 -->
+	<property name="ali_weather_appcode">6e4a94d3fe7c46ddb7c3b93d4c4a97a7</property>
+	<!-- 墨迹天气接口地址 -->
+	<property name="ali_weather_url">http://freecityid.market.alicloudapi.com/whapi/json/alicityweather/briefforecast3days</property>
+	<!-- 墨迹天气城市编码 -->
+	<property name="ali_weather_cityid">1208</property>
+	<!-- 交通拥堵系数 -->
+	<property name="unimpeded">1.0</property>
+	<!-- 交通拥堵系数 -->
+	<property name="amble">1.5</property>
+	<!-- 交通拥堵系数 -->
+	<property name="congestion">2.0</property>
+	<!-- 事件投递渠道号 -->
+	<property name="gmap_event_channel">ningbojiaotongtouzijituan</property>
+	<!-- 事件投递资源ID -->
+	<property name="gmap_event_sourceId">VVjAY9nQ</property>
+	<!-- 事件投递KEY -->
+	<property name="gmap_event_key">NWFlZWExYTJmNmRl</property>
+	<!-- 事件投递地址 -->
+	<property name="gmap_event_url">http://106.11.54.151:80/event/receive/standard</property>
+	<!-- 启动模板编号  编号代表模板编号  1,2,4,6,7,9,10,11,12,12a,13-->
+	<property name="run_model_num">0</property>
+	
+</project>
